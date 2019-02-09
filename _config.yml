@@ -2,6 +2,7 @@ title: befull
 description: Estaciones de carga para móviles
 logo: /images/logo-70x70.png
 lang: es_PE
+url: https://katsari.github.io/befull/
 
 plugins:
   - github-pages

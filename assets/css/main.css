@@ -1856,14 +1856,14 @@ input, select, textarea {
 		.feature-list h3 {
 			color: #ED5850 !important;
 			margin: -0.35em 0 0.75em 0;
-			font-size: 1.15em;
+			font-size: 1.3em;
 			letter-spacing: 0.05em;
 		}
 
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("images/overlay.png");
+				background: linear-gradient(to left, #d94b4a 0%, #834747 100%);
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -1991,19 +1991,19 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background-image: linear-gradient(to top, #d94b4a, #bc5251, #9e5756, #7f5959, #5c5a5a);
+			background-image: linear-gradient(to left, #d94b4a, #834747, #63586F, #5D586F);
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
-			.wrapper.style1 .title {
-				background: #5c5a5a url("images/overlay.png");
-				color: #fff;
-			}
+		.wrapper.style1 .title {
+			background-image: linear-gradient(to left, #834747, #63586F);
+			color: #fff;
+		}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #fff;
-			}
+		.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
+			color: #fff;
+		}
 
 		.wrapper.style2 {
 			background: #fff;
@@ -2054,7 +2054,7 @@ input, select, textarea {
 	}
 
 	.products-page {
-		background-image: linear-gradient(to right top, #d94b4a, #bc5251, #9e5756, #7f5959, #5c5a5a);
+		background-image: linear-gradient(to left, #d94b4a, #834747, #63586F, #5D586F);
 	}
 
 		#header:before {
@@ -2073,9 +2073,7 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		width:;
 		text-align: center;
-		position: relative;
 		top: 1.5em;
 		z-index: 1;
 		background-color: rgba(0,0,0,0.3);
@@ -2149,6 +2147,7 @@ input, select, textarea {
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.9em;
+					font-weight: 600;
 					letter-spacing: 0.2em;
 					height: 5em;
 					line-height: 5em;
@@ -2233,8 +2232,7 @@ input, select, textarea {
 			color: #fff;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2em;
-			letter-spacing: 0.075em;
+			font-size: 1.75em;
 			line-height: 1.35em;
 			padding: 1em 0 1em 0;
 			margin-bottom: 1em;
@@ -2250,6 +2248,18 @@ input, select, textarea {
 			width: 48em;
 			margin: 0 auto;
 		}
+
+		p.note	{
+		 display: inline-block;
+     background-color: #FFE0E0;
+     background-repeat: no-repeat;
+     border-left: solid 4px #d94b4a;
+     overflow: hidden;
+     padding: 15px 15px;
+		 font-size: 1.1em;
+		 font-weight: 500;
+		 color: #484d55;
+	 }
 
 /* Features */
 
@@ -2855,7 +2865,7 @@ input, select, textarea {
 					font-size: 0.9em;
 					width: 18em;
 					height: 2.5em;
-					top: -2.5em;
+					top: -2.4em;
 					line-height: 2.5em;
 					margin-bottom: -2.5em;
 					margin-left: -9em;
@@ -2913,10 +2923,10 @@ input, select, textarea {
 				}
 
 				#intro p.style2 {
-					font-size: 1.5em;
+					font-size: 1.25em;
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
-					padding: 1.25em;
+					padding: 0.5em;
 				}
 
 		/* Features */

@@ -3,7 +3,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background:rgba(0, 0, 0, 0.3);
+  background:rgba(0, 0, 0, 0.1);
 }
 
 .slideshow-image {
@@ -25,19 +25,66 @@
   transform: scale(1.2);
 }
 
-.slideshow-image h2 span {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+	position: absolute;
+  display: block;
+  bottom: 1em;
   color: #fff;
-  font-size: 1.5em;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
+  width: 60%;
+  font-size: 2em;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  line-height: 120%
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+.item-4{
+	animation-name: anim-4;
+}
+
+@keyframes anim-1 {
+	0%, 6.5% { left: 23%; opacity: 0; }
+  6.5%,18.5% { left: 25%; opacity: 1; }
+  25%, 100% { left: 27%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 25% { left: 23%; opacity: 0; }
+  31.5%, 43.5% { left: 25%; opacity: 1; }
+  50%, 100% { left: 27%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 50% { left: 23%; opacity: 0; }
+  56.5%, 68.5% { left: 25%; opacity: 1; }
+  75%, 100% { left: 27%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 75% { left: 23%; opacity: 0; }
+  81.5%, 93.5% { left: 25%; opacity: 1; }
+  100% { left: 27%; opacity: 0; }
 }
 
 @media all and (max-width: 480px) {
-  .slideshow-image h2 span {display:none;}
+  .text-slideshow {display:none;}
 }
 
 .slideshow-image:nth-child(1) {
