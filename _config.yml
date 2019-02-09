@@ -1,0 +1,9 @@
+title: befull
+description: Estaciones de carga para móviles
+logo: /images/logo-70x70.png
+lang: es_PE
+
+plugins:
+  - github-pages
+  - jekyll-sitemap
+  - jekyll-seo-tag
