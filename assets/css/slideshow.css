@@ -83,7 +83,7 @@
   100% { left: 27%; opacity: 0; }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 736px) {
   .text-slideshow {display:none;}
 }
 

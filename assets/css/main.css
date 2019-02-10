@@ -2234,7 +2234,7 @@ input, select, textarea {
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			font-size: 1.75em;
 			line-height: 1.35em;
-			padding: 1em 0 1em 0;
+			padding: 0.5em 0 0.5em 0;
 			margin-bottom: 1em;
 		}
 
@@ -2255,7 +2255,7 @@ input, select, textarea {
      background-repeat: no-repeat;
      border-left: solid 4px #d94b4a;
      overflow: hidden;
-     padding: 15px 15px;
+     padding: 10px 10px;
 		 font-size: 1.1em;
 		 font-weight: 500;
 		 color: #fff;
@@ -2912,8 +2912,8 @@ input, select, textarea {
 
 			#intro {
 				text-align: center;
-				padding-right: 2em;
-				padding-left: 2em;
+				padding-right: 1em;
+				padding-left: 1em;
 				padding-bottom: 5em;
 				margin: 0 auto;
 			}
