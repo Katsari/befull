@@ -2251,14 +2251,14 @@ input, select, textarea {
 
 		p.note	{
 		 display: inline-block;
-     background-color: #FFE0E0;
+     background-color: #2f333b;
      background-repeat: no-repeat;
      border-left: solid 4px #d94b4a;
      overflow: hidden;
      padding: 15px 15px;
 		 font-size: 1.1em;
 		 font-weight: 500;
-		 color: #484d55;
+		 color: #fff;
 	 }
 
 /* Features */
