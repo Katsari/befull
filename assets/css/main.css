@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
-@import url("slideshow.css");
+@import url("gallery.css");
 
 /*
 	Escape Velocity by HTML5 UP
@@ -1966,30 +1966,6 @@ input, select, textarea {
 			padding-top: 0.5em;
 		}
 
-			.wrapper .title:before {
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				left: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
-
-			.wrapper .title:after {
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
-				transform: scaleX(-1);
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				right: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
-
 		.wrapper.style1 {
 			background-image: linear-gradient(to left, #d94b4a, #834747, #63586F, #5D586F);
 			color: #eee;
@@ -1999,6 +1975,8 @@ input, select, textarea {
 		.wrapper.style1 .title {
 			background-image: linear-gradient(to left, #834747, #63586F);
 			color: #fff;
+			top: 0;
+			margin-bottom: 2em;
 		}
 
 		.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
@@ -2073,43 +2051,43 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		text-align: center;
-		top: 1.5em;
 		z-index: 1;
-		background-color: rgba(0,0,0,0.3);
-		box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
-		padding: 1em 1em;
-		margin-bottom: 4em;
-		position: relative;
+		padding: 2em 1em;
 	}
 
 	#logo img {
 		height: auto !important;
 		max-width: 100%;
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
 	}
 
 	div#logo.products-page-logo {
-		margin-top: 7em;
+		margin-top: 3em;
 		background-color: rgba(0,0,0,0);
 		box-shadow: none;
 	}
 		#logo h1 {
 			font-weight: 900;
 			color: #fff;
-			letter-spacing: 0.15em;
-			text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+			letter-spacing: 0.1em;
+			text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
     	font-size: 4em;
 		}
 
 		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.8);
-			text-transform: uppercase;
-			margin: 2.25em 0 0 0;
+			color: #fff;
+			margin: 1em 0 1em 0;
 			display: block;
-			letter-spacing: 0.2em;
-			font-size: 1em;
+			letter-spacing: 0.1em;
+			font-size: 2em;
+			font-weight: 500;
+			text-shadow: 0 1px 3px rgba(0,0,0,.1);
+			line-height: 1.2;
 		}
 
 /* Nav */
@@ -2251,14 +2229,14 @@ input, select, textarea {
 
 		p.note	{
 		 display: inline-block;
-     background-color: #2f333b;
+		 background: #f3f3f3 url(images/overlay.png);
      background-repeat: no-repeat;
      border-left: solid 4px #d94b4a;
      overflow: hidden;
      padding: 10px 10px;
 		 font-size: 1.1em;
 		 font-weight: 500;
-		 color: #fff;
+		 color: #2f333b;
 	 }
 
 /* Features */
@@ -2891,21 +2869,23 @@ input, select, textarea {
 		/* Logo */
 
 			#logo {
-				text-align: center;
-				padding-left: 2em;
-				padding-right: 2em;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
 			}
 
 				#logo h1 {
-					font-size: 1.5em;
+					font-size: 2.5em;
 					letter-spacing: 0.2em;
 				}
 
 				#logo p {
-					margin: 1.25em 0 0 0;
+					margin: 1.25em 0 3em 0;
 					display: block;
 					letter-spacing: 0.2em;
-					font-size: 0.9em;
+					font-size: 1.4em;
 				}
 
 		/* Intro */

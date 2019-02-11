@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
+		<link href="{{ "/assets/css/gallery.css" | relative_url }}" rel="stylesheet">
 
 		<!-- Favicon -->
 		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -18,61 +19,92 @@
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
-
-				<!-- Header -->
-					<section id="header" class="wrapper">
-
-						<div class="slideshow">
-						  <div class="slideshow-image" style="background-image: url('images/portada1.jpg')"></div>
-						  <div class="slideshow-image" style="background-image: url('images/portada2.jpg')"></div>
-						  <div class="slideshow-image" style="background-image: url('images/portada3.jpeg')"></div>
-							<div class="slideshow-image" style="background-image: url('images/portada4.jpeg')"></div>
-						</div>
-
-						<!-- Logo -->
-						<div id="logo">
-							<picture>
-							  <source media="(max-width: 799px)" srcset="images/logo-70x70.png">
-							  <source media="(min-width: 800px)" srcset="images/logo-160x160.png">
-							  <img src="images/logo-160x160.png" alt="befull logo">
-							</picture>
-							<h1><a href="/">{{ page.title }}</a></h1>
-							<p>Estaciones de carga para móviles</p>
-						</div>
-
-						<div class="text-slideshow">
-							<p class="item-1">Estaciones de carga para móviles cuando estás fuera de casa.</p>
-							<p class="item-2">
-								¿Por que colocar una estacion de carga en mi negocio?<br>
-								95% de los peruanos utilizan móvil.<br>
-								87% se conectan a las redes sociales y a internet a traves de su movil.
-							</p>
-							<p class="item-3">
-								9 de cada 10 personas sufren el "Síndrome de Batería Baja"<br>
-								sensación de pánico cuando su batería marca menos del 20%.
-							</p>
-							<p class="item-4">Aumenta la permanencia de tus clientes y tus ingresos.</p>
-						</div>
-
-						<!-- Nav -->
-						<nav id="nav">
+			
+			<div class="gallery autoplay items-4" style="min-height: 100vh;">
+				<div id="item-1" class="control-operator"></div>
+				<div id="item-2" class="control-operator"></div>
+				<div id="item-3" class="control-operator"></div>
+				<div id="item-4" class="control-operator"></div>
+			
+				<figure class="item slide1">
+					<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
 								<li><a href="products.html">Productos</a></li>
 								<li><a href="#footer">Contacto</a></li>
 							</ul>
-						</nav>
+					</nav>
+					<div id="logo">						
+						<picture>
+						  <source media="(max-width: 799px)" srcset="images/logo-70x70.png">
+						  <source media="(min-width: 800px)" srcset="images/logo-160x160.png">
+						  <img src="images/logo-160x160.png" alt="befull logo">
+						</picture>
+						<h1><a href="/">{{ page.title }}</a></h1>
+						<p>Estaciones de carga para móviles cuando estás fuera de casa</p>
+						<a href="#intro" class="button style1">Ver más</a>
+					</div>
+				</figure>
+			
+				<figure class="item slide2">
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li><a href="products.html">Productos</a></li>
+							<li><a href="#footer">Contacto</a></li>
+						</ul>
+					</nav>
+					<div id="slide-text">
+						<h1>¿Por qué colocar una estación de carga en mi negocio?</h1>
+						<p>
+							95% de los peruanos utilizan móvil.<br>
+							87% se conectan a las redes sociales e internet a traves de su movil.
+						</p>	
+					</div>
+				</figure>
+			
+				<figure class="item slide3">
+					<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="products.html">Productos</a></li>
+								<li><a href="#footer">Contacto</a></li>
+							</ul>
+					</nav>
+					<div id="slide-text">
+						<h1>9 de cada 10 personas sufren el "Síndrome de Batería Baja",<br>
+							sensación de pánico cuando su batería marca menos del 20%.</h1>	
+					</div>
+				</figure>
 
-				</section>
+				<figure class="item slide4">
+					<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="products.html">Productos</a></li>
+								<li><a href="#footer">Contacto</a></li>
+							</ul>
+					</nav>
+					<div id="slide-text">
+						<h1>Aumenta la permanencia de tus clientes y tus ingresos.</h1>
+					</div>
+				</figure>
+			
+				<div class="controls">
+					<a href="#item-1" class="control-button">•</a>
+					<a href="#item-2" class="control-button">•</a>
+					<a href="#item-3" class="control-button">•</a>
+					<a href="#item-4" class="control-button">•</a>
+				</div>
+			</div>
 
 				<!-- Intro -->
 			  <section id="intro" class="wrapper style1">
-			    <div class="title">Acerca de la empresa</div>
 			    <div class="container">
 			      <p class="style2">
-			        Soluciones innovadoras de carga de baterías para móviles cuando estas fuera de casa<br class="mobile-hide" />
+			        Soluciones innovadoras de carga de baterías para móviles cuando estás fuera de casa<br class="mobile-hide" />
 			      </p>
-						<p class="note icon fa-check"> La solución para mejorar tu negocio y una nueva opción de Emprendimiento con muy poco dinero.</p>
+						<p class="note icon fa-check"> Befull: La solución para mejorar tu negocio y una nueva opción de Emprendimiento con muy poco dinero.</p>
 			      <p class="style3">Befull ofrece una variedad de cargadores de baterías de móviles para colocar en lugares públicos y privados, llamados <strong>estaciones de carga para móviles</strong>. Con nuestros productos podrás aumentar la <strong>satisfacción de tus clientes</strong>, generar <strong>ingresos</strong> y <strong>publicitar</strong> tu negocio o el de un tercero.</p>
 			      <ul class="actions">
 			        <li><a href="#footer" class="button style3 large">Contáctanos</a></li>
