@@ -2443,6 +2443,10 @@ input, select, textarea {
 			}
 
 				#logo h1 {
+					font-size: 2em;
+				}
+
+				#logo p {
 					font-size: 1.75em;
 				}
 
