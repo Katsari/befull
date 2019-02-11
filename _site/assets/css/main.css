@@ -2067,7 +2067,7 @@ input, select, textarea {
 	}
 
 	div#logo.products-page-logo {
-		margin-top: 3em;
+		padding-top: 8em;
 		background-color: rgba(0,0,0,0);
 		box-shadow: none;
 	}
@@ -2099,6 +2099,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
+		z-index: 1;
 	}
 
 		#nav > ul {
@@ -2443,6 +2444,14 @@ input, select, textarea {
 
 				#logo h1 {
 					font-size: 1.75em;
+				}
+
+				div#logo.products-page-logo h1 {
+					font-size: 2em;
+				}
+
+				div#logo.products-page-logo p {
+					font-size: 1.5em;
 				}
 
 		/* Intro */
