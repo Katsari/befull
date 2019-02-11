@@ -697,22 +697,22 @@
 }
 
 .gallery .slide1 {
-  background: url("/images/portada1.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Katsari/befull/master/images/portada1.jpg") no-repeat;
   background-size: cover;
 }
 
 .gallery .slide2 {
-  background: url("/images/portada2.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Katsari/befull/master/images/portada2.jpg") no-repeat;
   background-size: cover;
 }
 
 .gallery .slide3 {
-  background: url("/images/portada3.jpeg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Katsari/befull/master/images/portada3.jpeg") no-repeat;
   background-size: cover;
 }
 
 .gallery .slide4 {
-  background: url("/images/portada4.jpeg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Katsari/befull/master/images/portada4.jpeg") no-repeat;
   background-size: cover;
 }
 
