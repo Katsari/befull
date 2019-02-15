@@ -693,7 +693,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
 .gallery .slide1 {
@@ -718,17 +718,33 @@
 
 /* Logo */
 
+.logo-image {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  padding: 1em 1em;
+}
+
+.logo-image h1 {
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  font-size: 2em;
+}
+
 #slide-text {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 1em 1em;;
+  padding: 1em 1em;
   line-height: 110%;
 }
 
 #slide-text h1 {
+  margin-bottom: 1em;
   font-weight: bold;
   color: #fff;
   font-size: 2.4em;
@@ -738,7 +754,7 @@
 
 #slide-text p {
   color: #fff;
-  margin: 2.25em 0 0 0;
+  margin: 2.25em 0 1em 0;
   letter-spacing: 0.1em;
   font-size: 2em;
   line-height: 1.4;
@@ -747,12 +763,22 @@
 
 @media screen and (max-width: 736px) {
   #slide-text h1 {
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 1.1;
   }
   
   #slide-text p {
     font-size: 1.4em;
     line-height: 1.1;
+    margin-top: 0.5em;
+  }
+
+#slide-text {
+  top: 65%;
+}
+
+  .logo-image h1 {
+    letter-spacing: 0.07em;
+    font-size: 1.7em;
   }
 }
