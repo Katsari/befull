@@ -707,12 +707,12 @@
 }
 
 .gallery .slide3 {
-  background: url("images/portada3.jpeg") no-repeat;
+  background: url("images/portada3.jpg") no-repeat;
   background-size: cover;
 }
 
 .gallery .slide4 {
-  background: url("images/portada4.jpeg") no-repeat;
+  background: url("images/portada4.jpg") no-repeat;
   background-size: cover;
 }
 
