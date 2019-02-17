@@ -1619,10 +1619,25 @@ input, select, textarea {
 				width: auto;
 			}
 
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			.image.featured {
+				height: auto;
+				max-width: 100%;
+			}
+
+		.image.product {
+			background-color: rgb(235, 230, 230);
+			height: auto;
+			padding: 0.8em 0.8em 0.5em 0.8em;
+			max-width: 70%;
+			display: table;
+			margin: 1.5em auto;
+		}
+
+		.caption {
+			text-align: center;
+			font-style: italic;
+			margin-top: 0.5em;
+			font-size: 1em;
 		}
 
 /* Button */
@@ -2941,6 +2956,10 @@ input, select, textarea {
 				#content header.style1 {
 					padding-bottom: 2.5em;
 				}
+
+			.image.product {
+				max-width: 100%;
+			}
 
 		/* Footer */
 
