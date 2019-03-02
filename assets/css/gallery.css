@@ -698,7 +698,7 @@
 .gallery .slide1 {
   background: url("images/portada1.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .gallery .slide2 {
@@ -710,7 +710,7 @@
 .gallery .slide3 {
   background: url("images/portada3.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .gallery .slide4 {
@@ -801,7 +801,7 @@
 
 @media screen and (max-width: 1280px) {
   .gallery .slide1 {
-    background-position: 91%;
+    background-position: top;
   }
 
   #slide1-text {
@@ -826,7 +826,7 @@
     width: 65%;
     font-size: 2em;
     position: absolute;
-    top: 22%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.2;
