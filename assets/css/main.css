@@ -1,12 +1,8 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 @import url("gallery.css");
+@import url("custom.css");
 
-/*
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html {
 	scroll-behavior: smooth;
@@ -112,7 +108,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		color: #1C1C1C;
+		color: #484d55;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1969,9 +1965,9 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			display: block;
-			font-weight: 900;
-			letter-spacing: 0.2em;
-			font-size: 1.3em;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+			font-size: 1.1em;
 			width: 25em;
 			height: 2.25em;
 			top: -2.25em;
@@ -2004,7 +2000,7 @@ input, select, textarea {
 
 			.wrapper.style2 .title {
 				background: #fff;
-				color: #1C1C1C;
+				color: #484d55;
 			}
 
 		.wrapper.style3 {
@@ -2013,7 +2009,7 @@ input, select, textarea {
 
 			.wrapper.style3 .title {
 				background: #f3f3f3 url("images/overlay.png");
-				color: #1C1C1C;
+				color: #484d55;
 			}
 
 			.wrapper.style3 .image {
@@ -2083,7 +2079,7 @@ input, select, textarea {
 	}
 
 	div#logo.products-page-logo {
-		padding-top: 8em;
+		padding-top: 7em;
 		background-color: rgba(0,0,0,0);
 		box-shadow: none;
 	}
@@ -2111,7 +2107,7 @@ input, select, textarea {
 	#nav {
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		top: 2em;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -2122,13 +2118,13 @@ input, select, textarea {
 			display: inline-block;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			padding: 0 1.5em 0 1.5em;
+			padding: 0 1em 0 1em;
 		}
 
 			#nav > ul > li {
 				display: inline-block;
 				text-align: center;
-				padding: 0 1.5em 0 1.5em;
+				padding: 0 1em 0 1em;
 			}
 
 				#nav > ul > li > ul {
@@ -2137,13 +2133,13 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
+					color: #fff;
 					color: rgba(255, 255, 255, 0.9);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.9em;
+					letter-spacing: 0.25em;
 					font-weight: 600;
-					letter-spacing: 0.2em;
 					height: 5em;
 					line-height: 5em;
 					-moz-transition: all .25s ease-in-out;
@@ -2156,10 +2152,12 @@ input, select, textarea {
 
 				#nav > ul > li:hover > a {
 					color: #fff;
+					border-bottom: 2px solid #f15454;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
 					color: #fff;
+					border-bottom: 2px solid #f15454;
 				}
 
 	.dropotron {
@@ -2243,18 +2241,6 @@ input, select, textarea {
 			width: 48em;
 			margin: 0 auto;
 		}
-
-		p.note	{
-		 display: inline-block;
-		 background: #f3f3f3 url(images/overlay.png);
-     background-repeat: no-repeat;
-     border-left: solid 4px #d94b4a;
-     overflow: hidden;
-     padding: 10px 10px;
-		 font-size: 1.1em;
-		 font-weight: 500;
-		 color: #1C1C1C;
-	 }
 
 /* Features */
 
@@ -2826,7 +2812,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				font-size: 1em;
-				max-width: 30em;
+				max-width: 20em;
 				margin: 0 auto;
 			}
 

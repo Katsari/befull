@@ -1,0 +1,43 @@
+/* Logo */
+
+.logo-image {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  padding: 1em 1em;
+}
+
+/* Back to top button */
+
+a.back-to-top {
+  display: none;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #fff url("images/arrow-up.png") no-repeat center 43%;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Nav */
+
+nav a {
+	border-bottom: 3px solid transparent;
+}
+
+/* Intro */
+
+p.note	{
+	padding: 10px 10px;
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #fff;
+}
